@@ -9,16 +9,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #eaeaea; /* Soft grey background */
+    background-color: #eaeaea; 
     font-family: 'Arial', sans-serif;
 }
 
 .calculator {
-    background: #ffffff; /* White background for the calculator */
+    background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 320px; /* Slightly wider for better button alignment */
+    width: 320px;
 }
 
 input[type="text"] {
@@ -30,8 +30,8 @@ input[type="text"] {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
-    background: #f9f9f9; /* Light grey for the input field */
-    color: #333; /* Dark text color */
+    background: #eaeaea;
+    color: #333;
 }
 
 .buttons {
@@ -41,7 +41,7 @@ input[type="text"] {
 }
 
 button {
-    background: #4a90e2; /* Elegant blue */
+    background: chocolate;
     color: white;
     border: none;
     border-radius: 5px;
@@ -51,14 +51,14 @@ button {
 }
 
 button:hover {
-    background: #357ABD; /* Darker blue on hover */
-    transform: scale(1.05); /* Slightly grow the button */
+    background: #CC5500 ; 
+    transform: scale(1.05); 
 }
 
 .equal {
-    background: #5cb85c; /* Green for the equals button */
+    background: #5cb85c; 
 }
 
 .equal:hover {
-    background: #4cae4c; /* Darker green on hover */
+    background: #4cae4c; 
 }
